@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>ife.basic.10</title>
+		<style>
+		    body{height:1200px}
+			.box1{
+				position:relative;
+				width:100px;
+				height:100%;
+				background-color:#1d2531;
+				float:left;
+			}
+			.box1-img{
+				position:absolute;
+				width:60px;
+				left:20px
+			}
+			.box1-img1{
+				top:20px
+			}
+			.box1-img2{
+				top:100px
+			}
+			.box1-img3{
+				top:180px
+			}
+			.box1-img4{
+				top:260px
+			}
+			.box1-img5{
+				position:absolute;
+				width:30px;
+				bottom:15px;
+				left:20px
+			}
+			.box1-img6{
+				position:absolute;
+				width:30px;
+				bottom:15px;
+				right:20px
+			}
+			.box2{
+				position:relative;
+				width:250px;
+				background-color:#222c3b;
+				height:100%;
+				float:left;
+			}
+			.box2-span{
+				position:absolute;
+				color:#b7c0cc;
+				left:30px;
+				font-size:14px;
+				font-family:"黑体";
+			}
+			.box2-span1{
+				position:absolute;
+				left:30px;
+				font-size:12px;
+				font-family:"黑体";
+				color:#475363;
+				top:30px;
+			}
+			.box2-img{
+				position:absolute;
+				right:20px;
+				width:30px;
+			}
+			.box2-img1{
+				top:30px
+			}
+			.box2-span2{
+				top:70px
+			}
+			.box2-span3{
+				top:105px
+			}
+			.box2-span4{
+				top:140px
+			}
+			.box2-span5{
+				top:175px
+			}
+			.box2-span6{
+				top:210px
+			}
+			.box2-span7{
+				position:absolute;
+				left:30px;
+				font-size:12px;
+				font-family:"黑体";
+				color:#475363;
+				top:275px;
+			}
+			.box2-img2{
+				top:270px
+			}
+			.box2-img0{
+				position:absolute;
+				width:15px;
+				left:30px;
+			}
+			.box2-img3{
+				top:315px
+			}
+			.box2-span0{
+				position:absolute;
+				color:#b7c0cc;
+				left:60px;
+				font-size:14px;
+				font-family:"黑体";
+			}
+			.box2-span8{
+				top:314px
+			}
+			.box2-span9{
+				top:355px
+			}
+			.box2-img4{
+				top:360px;
+				width:20px;
+				left:29px
+			}
+			.box2-img5{
+				top:400px;
+				width:16px
+			}
+			.box2-span10{
+				top:397px
+			}
+			.box2-img6{
+				top:440px
+			}
+			.box2-span11{
+				top:437px
+			}
+			.box2-span12{
+				position:absolute;
+				left:30px;
+				font-size:12px;
+				font-family:"黑体";
+				color:#475363;
+				top:495px
+			}
+			.box2-img7{
+				top:493px
+			}
+			.box2-span13{
+				top:540px
+			}
+			.box2-span14{
+				top:575px
+			}
+			.box2-span15{
+				top:610px
+			}
+			.box2-span16{
+				top:645px
+			}
+			.box2-span17{
+				top:680px
+			}
+			.box2-span18{
+				position:absolute;
+				bottom:56px;
+				color:#ffffff;
+				left:30px;
+				font-size:14px;
+				font-family:"黑体";
+			}
+			.box2-span19{
+				position:absolute;
+				bottom:56px;
+				color:#ffffff;
+				right:30px;
+				font-size:14px;
+				font-family:"黑体";
+			}
+			.box2-div0{
+				position:absolute;
+				width:30px;
+				height:22px;
+				border-radius:18px;
+				background-color:#2e9cef;
+				color:white;
+				text-align:center;
+				right:30px;
+				font-size:14px
+			}
+			.box2-div1{
+				top:105px;
+			}
+			.box2-div2{
+				top:540px
+			}
+			.box2-div3{
+				position:absolute;
+				background-color:#df422d;
+				border-radius:50%;
+				width:20px;
+				height:20px;
+				color:white;
+				font-size:14px;
+				text-align:center;
+				top:608px;
+				right:30px
+			}
+			.box2-div4{
+				position:absolute;
+				width:190px;
+				height:6px;
+				border-radius:5px;
+				background-color:#2d3847;
+				left:30px;
+				bottom:23px;
+			}
+			.box2-div5{
+				position:absolute;
+				width:40px;
+				height:6px;
+				border-radius:5px;
+				background-color:#8569e2;
+				left:30px;
+				bottom:23px
+			}
+			.box3{
+				position:relative;
+				float:left;
+				width:auto;
+				height:80px;
+				background-color:red;
+				border:1px solid #e6e9ec
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box1">
+			<img src="img/WX20180511-181211@2x.png" class="box1-img1 box1-img">
+			<img src="img/WX20180511-181230@2x.png" class="box1-img box1-img2">
+			<img src="img/WX20180511-181246@2x.png" class="box1-img box1-img3">
+			<img src="img/WX20180511-181258@2x.png" class="box1-img box1-img4">
+			<img src="img/WX20180511-182543@2x.png" class="box1-img5">
+			<img src="img/WX20180511-182556@2x.png" class="box1-img6">
+		</div>
+		<div class="box2">
+			<span class="box2-span1">MENU</span>
+			<img src="img/WX20180511-184324@2x.png" class="box2-img box2-img1">
+			<span class="box2-span box2-span2">Overview</span>
+			<span class="box2-span box2-span3">Sales</span>
+			<span class="box2-span box2-span4">Your Staff</span>
+			<span class="box2-span box2-span5">Analytics&Targeting</span>
+			<span class="box2-span box2-span6">What's New</span>
+			<span class="box2-span7">YOUR PRODUCTS</span>
+			<img src="img/WX20180511-184324@2x.png" class="box2-img box2-img2">
+			<img src="img/WX20180511-185923@2x.png" class="box2-img0 box2-img3">
+			<span class="box2-span0 box2-span8">Books</span>
+			<img src="img/WX20180511-185934@2x.png" class="box2-img0 box2-img4">
+			<span class="box2-span0 box2-span9">Tutorials</span>
+			<img src="img/WX20180511-185955@2x.png" class="box2-img0 box2-img5">
+			<span class="box2-span0 box2-span10">Stocks</span>
+			<img src="img/WX20180511-190006@2x.png" class="box2-img0 box2-img6">
+			<span class="box2-span0 box2-span11">Infographics</span>
+			<span class="box2-span12">DASHBOARD</span>
+			<img src="img/WX20180511-184324@2x.png" class="box2-img box2-img7">
+			<span class="box2-span box2-span13">Messages</span>
+			<span class="box2-span box2-span14">Connections</span>
+			<span class="box2-span box2-span15">Integrations</span>
+			<span class="box2-span box2-span16">Account Settings</span>
+			<span class="box2-span box2-span17">App Settings</span>
+			<span class="box2-span18">Monthly Goals</span>
+			<span class="box2-span19">$580/$3200</span>
+			<div class="box2-div1 box2-div0">54</div>
+			<div class="box2-div2 box2-div0">21</div>
+			<div class="box2-div3">!</div>
+			<div class="box2-div4"></div>
+			<div class="box2-div5"></div>
+		</div>
+		<div class="box3">
+			
+		</div>
+	</body>
+</html>
